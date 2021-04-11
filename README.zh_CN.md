@@ -144,6 +144,8 @@ docker run \
 */10 * * * * /bin/node /workspace/AutoSignMachine/index.js unicom --user 1******5 --password 7****** --appid 1************9
 ```
 
+
+
 ### 多用户配置
 启用`--accountSn`表示账户序号，例如`1,2`, 则将提取`option-sn`选项的值，例如`user-1`,`user-2`
 
